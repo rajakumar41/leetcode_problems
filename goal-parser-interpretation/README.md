@@ -1,3 +1,4 @@
+[Discussion Post (created on 7/9/2021 at 12:36)](https://leetcode.com/problems/goal-parser-interpretation/discuss/1507962/CPP(c%2B%2B)-easy-solution)  
 <h2>1678. Goal Parser Interpretation</h2><h3>Easy</h3><hr><div><p>You own a <strong>Goal Parser</strong> that can interpret a string <code>command</code>. The <code>command</code> consists of an alphabet of <code>"G"</code>, <code>"()"</code> and/or <code>"(al)"</code> in some order. The Goal Parser will interpret <code>"G"</code> as the string <code>"G"</code>, <code>"()"</code> as the string <code>"o"</code>, and <code>"(al)"</code> as the string <code>"al"</code>. The interpreted strings are then concatenated in the original order.</p>
 
 <p>Given the string <code>command</code>, return <em>the <strong>Goal Parser</strong>'s interpretation of </em><code>command</code>.</p>
