@@ -11,16 +11,31 @@
 int peakElement(int arr[], int n)
 {
    // Your code here
-   int ans =arr[0];
-   int res =0;
-   for(int i =1;i<n;i++){
-       if(arr[i]>ans){
-           ans = arr[i];
-           res =i;
-       }
+//   int ans =arr[0];
+//   int res =0;
+//   for(int i =1;i<n;i++){
+//       if(arr[i]>ans){
+//           ans = arr[i];
+//           res =i;
+//       }
        
-   }
-   return res;
+//   }
+//   return res;
+
+    int s=0,e=n-1;
+    int res = 0;
+    while(s<e){
+        if(arr[s] > arr[e]){
+            res = s;
+            e--;
+        }
+        else{
+            res = e;
+            s++;
+        }
+        
+    }
+    return res;
 }
 
 // { Driver Code Starts.
